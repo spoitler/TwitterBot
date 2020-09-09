@@ -3,7 +3,10 @@ require 'twitter'
 fork do
 
     client = Twitter::REST::Client.new do |config|
-       
+        config.consumer_key        = "IxYDCpWLT2557frhIMPJuBT6r"
+        config.consumer_secret     = "bSUYxRMqxVSbcEs4jfCvGotiIfFzOMULE7TAJFRfCtWd59jmjf"
+        config.access_token        = "1134857802105655296-sZbgLBs1dpiE47pbQuLSCaHv7cBOKB"
+        config.access_token_secret = "jr6egdYfsCdkgoRs7bQhBBNYSe2ULFPpuRUjaJDt3qTpR"
     end
 
     tags = ["#javascript", "#js"]
